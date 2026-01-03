@@ -4,7 +4,7 @@ export default function ProductList({ products, editProduct, deleteProduct }) {
       <h3>Product List</h3>
 
       {products.length === 0 ? (
-        <p>No products available.</p>
+        <p>Products loading.Wait a while please.</p>
       ) : (
         <table className="simple-table">
           <thead>
